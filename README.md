@@ -10,6 +10,7 @@ This repository contains custom subagents for Claude Code that extend its capabi
 **Purpose**: Deep market analysis, competitive intelligence, and strategic opportunity identification
 
 The Market Scout agent performs comprehensive market research by:
+- Identifying market size (TAM) and growth rate (CAGR) from credible sources
 - Discovering recent technological breakthroughs (last 12 months)
 - Mapping competitive landscapes (dominant players + emerging disruptors)
 - Extracting customer pain points from forums, reviews, and community discussions
@@ -47,7 +48,7 @@ What are the strategic opportunities in the enterprise observability space?
 
 Market Scout delivers structured Markdown reports with these sections:
 
-1. **Market Context**: Maturity level, recent breakthroughs, market dynamics
+1. **Market Context**: Market size (TAM), growth rate (CAGR), maturity level, recent breakthroughs, market dynamics
 2. **Competitive Landscape**: Top 3-5 players, 1-2 disruptors, with capabilities and weaknesses
 3. **Customer Pain Points**: Evidence-based sentiment analysis from real user feedback
 4. **Strategic Opportunities**: Actionable gaps and unmet needs
